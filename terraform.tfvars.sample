@@ -1,0 +1,19 @@
+org_id            = "<org-id>"
+pubsub_project_id = "<project-id>"
+members = [
+  "user:<some-user-email>",
+  "serviceAccount:<terraform-service-account-email>",
+]
+
+contacts = [
+  {
+    project_id  = "dataflow-project"
+    team_prefix = "data"
+    email       = "data@example.com"
+  },
+  {
+    project_id  = "security-project"
+    team_prefix = "sec"
+    email       = "security@example.com"
+  },
+]
