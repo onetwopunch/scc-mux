@@ -25,13 +25,13 @@ $ terraform output -json contacts | jq .
   {
     "project_id": "dataflow-project",
     "team_prefix": "data",
-    "topic": "scc-data-dataflow-project",
+    "topic": "projects/pubsub-project/topics/scc-data-dataflow-project",
     "email": "data@example.com"
   },
   {
     "project_id": "security-project",
     "team_prefix": "seceng",
-    "topic": "scc-seceng-security-project",
+    "topic": "projects/pubsub-project/topics/scc-seceng-security-project",
     "email": "security@example.com"
   }
 ]
